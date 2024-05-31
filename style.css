@@ -7,6 +7,12 @@
 	src: local('Fog'),
 		url(/fonts/FoglihtenNo06/FoglihtenNo06_076.otf); 
 }
+.cactus-classical-serif-regular {
+  font-family: "Cactus Classical Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 html, body {
     height: 100%;
     width: 100%;
@@ -15,7 +21,7 @@ html, body {
 body {
     /* display: flex; */
     flex-direction: column;
-    font-family: 'Fog', sans-serif;
+    font-family: 'Cactus Classical Serif', sans-serif;
     font-weight: 600;
 }
 
